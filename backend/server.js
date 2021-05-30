@@ -6,6 +6,7 @@ import userRouter from './routers/userRouter.js';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 
 console.log("hallo");
+console.log("hallo2");
 config();
 connectDB();
 const app = express();
